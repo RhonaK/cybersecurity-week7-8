@@ -12,8 +12,7 @@ Time spent: **10** hours spent in total
     - Tested in version: 4.2
     - Fixed in version: 4.2.4
   - [x] GIF Walkthrough: 
-    - <img src='2.gif' title='User Enumeration' width='' alt='' />
-     - <img src='3.gif' title='User Enumeration' width='' alt='' />
+    - <img src='1.gif' title='User Enumeration' width='' alt='' />
   - [x] Steps to recreate: 
     - Create a new post, and then put this code ```<a href="[caption code=">]</a><a title =" onmouseover=alert('Exploit1Rona!')  "> dont click the link.</a>``` in the content link. Finally click link to show message in the preview of post.
   - [x] Affected source code:
@@ -25,7 +24,8 @@ Time spent: **10** hours spent in total
     - Tested in version: 4.2
     - Fixed in version: 4.2.4
   - [x] GIF Walkthrough: 
-    - <img src='UserEnumeration.gif' title='User Enumeration' width='' alt='' />
+     - <img src='2.gif' title='User Enumeration' width='' alt='' />
+     - <img src='3.gif' title='User Enumeration' width='' alt='' />
   - [x] Steps to recreate: 
     - Go to the WordPress login page, when you input admin as username and empty password field, then it shows the error which is the password field is empty. When you input admin as username and randomly input password, then it shows the error which is the password you entered for the username admin is incorrect.  When you randomly input both username and password, then it shows the error which is invalid username, or by running this command on KALI  --enumeration u.
   - [x] Affected source code:
