@@ -40,7 +40,7 @@ Time spent: **10** hours spent in total
   - [x] Steps to recreate: 
     - View a new post, and insert code ```http:// site.com/wp-content/themes/twentyfifteen/genericons/example.html#1<img/ src=1 onerror= alert(1)>``` and just hit the preview post. Then it shows 1 when the next window pops up.
   - [x] Affected source code:
-    - [Link 3](https://cedricvb.be/post/wordpress-stored-xss-vulnerability-4-1-2/)
+    - [Link 3]
 
 
 
