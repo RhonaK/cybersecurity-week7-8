@@ -39,11 +39,11 @@ Time spent: **10** hours spent in total
   - [x] GIF Walkthrough: 
     - <img src='4.gif' title='XSS2' width='' alt='' />
   - [x] Steps to recreate: 
-      -Go to the following url: wp-content/themes/twentyfifteen/genericons/example.html#1
+      - Go to the following url: wp-content/themes/twentyfifteen/genericons/example.html#1
       
-      -At the end of the url add the following xss code <img src=1 onerror="alert(1)" />
+      - At the end of the url add the following xss code <img src=1 onerror="alert(1)" />
       
-      -View a new post, and insert code ```http:// site.com/wp-content/themes/twentyfifteen/genericons/example.html#1<img/ src=1 onerror= alert(1)>``` and just hit the preview post. Then it shows 1 when the next window pops up.
+      - View a new post, and insert code ```http:// site.com/wp-content/themes/twentyfifteen/genericons/example.html#1<img/ src=1 onerror= alert(1)>``` and just hit the preview post. Then it shows 1 when the next window pops up.
       
   - [x] Affected source code:
     - [Link 3]
