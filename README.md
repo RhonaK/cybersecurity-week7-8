@@ -16,7 +16,7 @@ Time spent: **10** hours spent in total
   - [x] Steps to recreate: 
     - Create a new post, and then put this code ```<a href="[caption code=">]</a><a title =" onmouseover=alert('Exploit1Rona!')  "> dont click the link.</a>``` in the content link. Finally click link to show message in the preview of post.
   - [x] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/branches/4.2/src/wp-includes/class-wp-editor.php?rev=33361)
+    - [Link 1](https://wpvulndb.com/vulnerabilities/8111)
 
 2. (Required) Vulnerability Name or ID: User Enumeration
   - [x] Summary: 
