@@ -27,23 +27,21 @@ Time spent: **10** hours spent in total
      - <img src='2.gif' title='User Enumeration' width='' alt='' />
      - <img src='3.gif' title='User Enumeration' width='' alt='' />
   - [x] Steps to recreate: 
-    - Go to the WordPress login page, when you input admin as username and empty password field, then it shows the error which is the password field is empty. When you input admin as username and randomly input password, then it shows the error which is the password you entered for the username admin is incorrect.  When you randomly input both username and password, then it shows the error which is invalid username, or by running this command on KALI  --enumeration u.
+    - Go to the WordPress login page, when you input admin as username and empty password field, then it shows the error which is the   password field is empty. When you input admin as username and randomly input password, then it shows the error which is the password you entered for the username admin is incorrect.  When you randomly input both username and password, then it shows the error which is invalid username, or by running this command on KALI  --enumeration u.
   - [x] Affected source code:
     - [Link 2](https://www.wpwhitesecurity.com/wordpress-security/wordpress-username-disclosure-vulnerability/)
 
-3. (Required) Vulnerability Name or ID: Unauthenticated Stored Cross-Site Scripting (XSS2)
+3. (Required) WordPress 4.1-4.2.1 - Unauthenticated Genericons Cross-Site Scripting (XSS)
   - [x] Summary: 
     - Vulnerability types: XSS
-    - Tested in version: 4.2
-    - Fixed in version: 4.2.4
+    - Tested in version: 4.1-4.2.1
+    - Fixed in version: 4.2.2
   - [x] GIF Walkthrough: 
     - <img src='4.gif' title='XSS2' width='' alt='' />
   - [x] Steps to recreate: 
     - View a new post, and insert code ```http:// site.com/wp-content/themes/twentyfifteen/genericons/example.html#1<img/ src=1 onerror= alert(1)>``` and just hit the preview post. Then it shows 1 when the next window pops up.
   - [x] Affected source code:
     - [Link 3]
-
-
 
 
 ## Assets
